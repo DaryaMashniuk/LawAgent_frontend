@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose {
+    max-width: 100%;
+  }
+  
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  .prose table td, .prose table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .prose table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .temp-highlight {
+    background-color: currentColor;
+    opacity: 0.5;
+  }
+  
+  .document-highlight {
+    transition: background-color 0.2s;
+  }
+  
+  .document-highlight:hover {
+    opacity: 0.8;
+  }
+/* .highlight-toolbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.highlight-preview {
+  position: absolute;
+  background: rgba(255, 235, 59, 0.3);
+  pointer-events: none;
+} */
